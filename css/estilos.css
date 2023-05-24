@@ -176,7 +176,7 @@ Hola
  }
  .imagenfondo {
     background-color: #cd6153;
-    background-image: url(..//recursos/Ilustración\ basada\ en\ foto.png);
+    background-image: url(../recursos/Ilustracion_basada_en_foto.jpeg);
     background-size: cover;
     background-position: top center;
     margin: 10px auto;
@@ -280,7 +280,7 @@ Hola
 }
 .imagen-hero {
     background-color: #cd6153;
-    background-image: url(..//recursos/Ilustración\ Emoción\ -\ Estefania\ Garcia\ Zapata.png);
+    background-image: url(../recursos/Ilustración_Emocion.jpeg);
     background-size: cover;
     background-position:initial;
     padding: 200px 50%;
