@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El lápiz de Ega</title>
+    <link rel="stylesheet" href="../122_estefania_garcia_bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/offcanvas-navbar.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar colorcito navbar-expand-lg fixed-top " aria-label="Main navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="../122_estefania_garcia_bootstrap/recursos/logo_lapizdeega.png" width="100"
+                        class="imagen-inicio" alt="logo"></a>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse b-menu derecha justify-content-center"
+                    id="navbarsExampleDefault">
+                    <ul class="navbar-nav fondo-color me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link guayaba"
+                                href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link guayaba" href="122_estefania_garcia_servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link activa guayaba"
+                                href="122_estefania_garcia_camisetas.html">Camisetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link guayaba"
+                                href="122_estefania_garcia_sobremi.html">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link guayaba" href="122_estefania_garcia_contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid espacio">
+        <div class="row">
+            <div class="col-3 filtrado">
+                <h3>Filtro</h3>
+                <h2>Color</h2>
+                <hr>
+                <button class="btn botonfiltro" onclick="filterSelection('WHITE')">BLANCO</button>
+                <button class="btn botonfiltro" onclick="filterSelection('PURPLE')">MORADO</button>
+                <button class="btn botonfiltro" onclick="filterSelection('BEIGE')">BEIGE</button>
+                <button class="btn botonfiltro" onclick="filterSelection('BLACK')">NEGRO</button>
+                <button class="btn active botonfiltro" onclick="filterSelection('all')"> Mostrar todo</button>
+                <br>
+                <br>
+                <h2>Talla</h2>
+                <hr>
+                <button class="btn botonfiltro" onclick="filterSelection('S')"> S</button>
+                <button class="btn botonfiltro" onclick="filterSelection('M')"> M</button>
+                <button class="btn botonfiltro" onclick="filterSelection('L')"> L</button>
+                <button class="btn botonfiltro" onclick="filterSelection('XL')"> XL</button>
+                <button class="btn active botonfiltro" onclick="filterSelection('all')"> Mostrar todo</button>
+            </div>
+            <div class="col-9">
+                <div class="col-12 col-lg-4 container-fluid filterDiv WHITE S espaciado">
+                    <div class="card blue" style="width:fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_trueque.png" width="250"
+                            class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Pisa</h5>
+                            <p class="card-text">Su diseño es fotográfico
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 container-fluid filterDiv PURPLE M espaciado">
+                    <div class="card red" style="width:fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_calaca.png" width="250"
+                            class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Calaca</h5>
+                            <p class="card-text">Su diseño es digital en Procreate
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 container-fluid filterDiv WHITE L espaciado">
+                    <div class="card green" style="width: fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_ferxxo.png" width="250"
+                            class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Ferxxo</h5>
+                            <p class="card-text">Inspirada en el artista urbano
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 filterDiv container-fluid WHITE XL espaciado">
+                    <div class="card blue" style="width: fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_cereza.png" width="250"
+                            class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Cerezas</h5>
+                            <p class="card-text">Su estampación es en la técnica DFT - Estampación americana
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 filterDiv container-fluid BEIGE S espaciado">
+                    <div class="card red" style="width: fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_badbunny.png"
+                            width="250" class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Bad Bunny</h5>
+                            <p class="card-text">Su diseño se realizó para el World's Hottest Tour 2022
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 filterDiv container-fluid BLACK M espaciado">
+                    <div class="card green" style="width: fit-content;">
+                        <img src="../122_estefania_garcia_bootstrap/recursos/camisetas/camiseta_gengar.png" width="250"
+                            class="card-img-top" alt="...">
+                        <div class="card-body info-camisetas">
+                            <h5 class="card-title">Camiseta Gengar</h5>
+                            <p class="card-text">Su estampación es en la técnica de vinilo téxtil
+                            </p>
+                            <p>$60.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <!--Vinculacion del archico JS de bootstrap de manera local-->
+   <script src="../122_estefania_garcia_bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="js/offcanvas-navbar.js"></script>
+    <script src="../122_estefania_garcia_bootstrap/js/script.js"></script>
+</body>
+
+</html>

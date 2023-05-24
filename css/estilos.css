@@ -1,0 +1,288 @@
+/*Estilos de imagen*/
+@font-face {
+    font-family: "Playlist Script";
+    src: url("../fonts/Playlist\ Script.otf");
+    /**/
+}
+
+@font-face {
+    font-family: "Ruda-Regular";
+    src: url("../fonts/Ruda/Ruda-Regular.ttf");
+}
+
+.esquinas-redondeadas {
+    border-radius: 1.2em;
+}
+
+.titulos-1 {
+    color: #DEA398;
+    font-size: 3em;
+    font-family: "Playlist Script";
+}
+
+.texto-parrafo {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+    text-align: justify ;
+}
+
+.colorcito {
+    background-color: #DEA398;
+    font-family: "Ruda-Regular";
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.navbar-collapse {
+    flex-grow: none;
+}
+
+.guayaba:hover {
+    color: #cd6153;
+}
+
+.fondo-color {
+    color: #cd6153;
+}
+
+.guayaba {
+    color: #FFFFFF;
+}
+
+.activa {
+    color: #cd6153;
+}
+
+.apartado {
+    padding: 80px;
+}
+
+.botoninicio {
+    background-color: #DEA398;
+    color: #FFFFFF;
+    font-family: "Ruda-Regular";
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.75rem 5rem;
+    border-color: #FFFFFF;
+}
+
+.botoninicio:hover {
+    background-color: #cd6153;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-color: #FFFFFF;
+}
+
+.info-camisetas {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+}
+
+.espacio {
+    padding-top: 80px;
+}
+.espacio-3 {
+    padding-top: 80px;
+    margin: none;
+    margin-left: none;
+}
+.espaciado {
+    padding-top: 10px;
+}
+
+.filtrado {
+    padding-left: 20px;
+}
+
+.filtrado h3 {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+    font-size: 25px;
+}
+
+.filtrado h2 {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+    font-size: 18px;
+}
+
+.filtrado hr {
+    color: #DEA398;
+}
+.linea-horizontal {
+    color: #DEA398;
+}
+
+/**
+Hola
+**/
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.botonfiltro {
+    background-color: #DEA398;
+    color: #FFFFFF;
+    font-family: "Ruda-Regular";
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.75rem 1rem;
+    border-color: #FFFFFF;
+}
+
+.botonfiltro:hover {
+    background-color: #cd6153;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-color: #FFFFFF;
+}
+.texto h3 {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+    font-size: 20px;
+}
+
+.texto h1 {
+    color: #DEA398;
+    font-size: 3em;
+    font-family: "Playlist Script";
+}
+.imagen-estefa{
+   height: 500px; 
+   max-width: none;
+   margin: none;
+}
+.img-estefa{
+    width: 300px;
+    max-width: none;
+ }
+ .b-menu{
+    background-image:url(../recursos/ilustraciones/Fondo.png);
+ }
+ .imagenfondo {
+    background-color: #cd6153;
+    background-image: url(..//recursos/Ilustración\ basada\ en\ foto.png);
+    background-size: cover;
+    background-position: top center;
+    margin: 10px auto;
+    text-align: center;
+    padding: 200px 10px;
+}
+
+.imagenfondo h2 {
+    color: #FFFFFF;
+    font-family: "Playlist Script";
+    font-size: 60px;
+    font-weight: normal;
+    text-shadow: 2px 2px 6px #000000;
+    margin: 10 px auto;
+}
+
+.imagenfondo p {
+    color: #FFFFFF;
+    font-family: "Ruda-Regular";
+    font-size: 20px;
+    font-style: normal;
+    margin: 20px 50px 30px 50px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.cards ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.cards li {
+    background-color: #F1C0BE;
+    margin: 30px;
+    width: 300px;
+    height: 540px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 6px 8px #000000;
+    transition: box-shadow 0.5s;
+}
+
+.cards li:hover {
+    box-shadow: 0 6px 10px #FFFFFF;
+}
+
+.cards img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.cards h5 {
+    color: #DEA398;
+    font-family: "Ruda-Regular";
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cards p {
+    color: #DEA398;
+    text-align: left;
+    font-family: "Ruda-Regular";
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.cards a {
+    text-decoration: none;
+}
+.encabezado {
+    color: #DEA398;
+    font-size: 30px;
+    font-family: "Playlist Script";
+}
+.encabezado2 {
+    color: #DEA398;
+    font-size: 20px;
+    font-family: "Ruda-Regular";
+}
+.square{
+    margin: 20px;
+}
+.piringis{
+    color: #DEA398;
+    font-size: 15px;
+    font-family: "Ruda-Regular"; 
+}
+.party{
+    margin-left: 20px;
+}
+.imagen-hero {
+    background-color: #cd6153;
+    background-image: url(..//recursos/Ilustración\ Emoción\ -\ Estefania\ Garcia\ Zapata.png);
+    background-size: cover;
+    background-position:initial;
+    padding: 200px 50%;
+    object-fit: cover;
+}
